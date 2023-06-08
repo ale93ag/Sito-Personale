@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Progetto sito Personale"
+		},
+		{
+			"path": "../Cartella Start2iMPACT"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Cartella Start2iMPACT"
+	}
+}
