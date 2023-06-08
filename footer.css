@@ -1,0 +1,72 @@
+.immagine-personale-piccola {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    object-fit: cover;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    z-index: 100;
+    padding: 20px;
+}
+
+.vuoicontattarmi {
+    position: relative;
+    display: inline-block;
+}
+
+.contact-button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    margin-right: 80px;
+}
+
+.contact-options {
+    display: none;
+    position: absolute;
+    bottom: 40px; 
+    right: 65px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.contact-button:hover + .contact-options,
+.contact-options:hover {
+    display: block;
+}
+
+.option {
+    margin-bottom: 0p;
+}
+
+.contact-options a {
+    display: block;
+    color: black;
+    background-color: rgb(237, 236, 236);
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px;
+    width: 180px;
+}
+
+.contact-options a:hover {
+    background-color:black; /* Cambia il colore quando si passa sopra con il cursore */
+    color: rgb(237, 236, 236);
+}
+
+.contact-options a i {
+    margin-right: 5px;
+}
+

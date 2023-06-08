@@ -38,12 +38,13 @@ h2 {
     right: 0;
     position: absolute;
     top: 110px;
-    right: 210px;
+    right: 230px;
 }
 .immagine-personale {
     width: 400px;
     height: 400px;
     border-radius: 200px;
+    object-fit: cover;
 }
 .what {
     position: absolute;
