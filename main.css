@@ -23,13 +23,24 @@ main {
     display: block;
 }
 h1 {
-    font-size: 50px;
+    font-size: 55px;
     margin-bottom: 150px;
+    text-decoration: underline;
 }
 
 h2 {
-    font-size: 30px;
+    
+    font-size: 48px;
+    color: rgb(32, 173, 150);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    
 }
+
 .profilo {
     display: flex;
     flex-direction: row;
