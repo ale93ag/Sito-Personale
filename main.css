@@ -10,8 +10,8 @@ main {
     display: inline-block;
 }
 .presentazione {
-    background-color: rgba(32, 173, 150, 0.21);
-    font-size: 15px;
+    background-color: rgba(32, 173, 150, 0.6);
+    font-size: 18px;
     border-radius: 5px;
     overflow: hidden;
     height: 40px;
