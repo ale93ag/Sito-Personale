@@ -70,3 +70,17 @@ h2 {
 .esperienza {
     font-size: 40px;
 }
+.profilo {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    right: 200px;
+    position: absolute;
+}
+
+.immagine-profilo {
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+    object-fit: cover;
+}
