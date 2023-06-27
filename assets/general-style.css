@@ -1,6 +1,15 @@
 * {
     font-family: Oswald, Arial;
 }
+.sfondo {
+background-image: url(Sfondo/9343.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+margin: 0;
+padding: 0;
+height: 100vh;
+}
 
 @media screen and (max-width: 400px) {
     .profilo {
