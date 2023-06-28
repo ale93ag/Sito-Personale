@@ -11,87 +11,67 @@ padding: 0;
 height: 100vh;
 }
 
-@media screen and (max-width: 400px) {
-    .profilo {
-      position: static;
-      width: auto;
-      right: auto;
-      top: auto;
-      margin-bottom: 20px;
-    }
-    .description {
-      position: static;
-      top: auto;
-      left: auto;
-      margin-bottom: 20px;
-    }
-    
-    .what {
-      position: static;
-      top: auto;
-      left: auto;
-    }
+@media (max-width: 768px) {
+  *{
+    height: auto;
   }
-  @media screen and (max-width: 820px) {
-    .profilo {
-      position: static;
-      width: auto;
-      right: auto;
-      top: auto;
-      margin-bottom: 20px;
-    }
-    
-    .description {
-      position: static;
-      top: auto;
-      left: auto;
-      margin-bottom: 20px;
-    }
-    
-    .what {
-      position: static;
-      top: auto;
-      left: auto;
-    }
-  }
-  @media screen and (max-width: 820px) {
-    nav {
-      font-size: 14px;
-    }
-    
-    nav a {
-      margin-right: 10px;
-    }
-  }
-  
-  @media screen and (max-width: 400px) {
-    .header {
-      position: relative;
-    }
-    
-    nav menu-icon {
+  main {
       flex-direction: column;
-      align-items: flex-end;
-      margin-top: 100px; /* altezza dell'header */
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      box-sizing: border-box;
-      padding-top: 20px;
-      font-size: 16px;
-      display: fixed;
+      align-items: center;
+  }
+    .profilo {
+      position: static;
+      width: auto;
+      right: auto;
+      top: auto;
+      margin-bottom: 20px;
+    }
+    .description {
+      position: static;
+      top: auto;
+      left: auto;
+      margin-bottom: 20px;
     }
     
-    menu-a-tendina a {
-      margin-right: 0;
-      margin-bottom: 10px;
+    .what {
+      position: static;
+      top: auto;
+      left: auto;
     }
+    .contact-form{
+      position: absolute;
+      width: 250px;
+      right: 50px;
+      top: 450px;
+      margin-bottom: 0;
+
+    }
+    .contact-form input {
+      width: 250px;
+    }
+    .contact-form textarea {
+      width: 250px;
+    }
+    .contact-form button {
+      position: relative;
+      right: 180px;
+    }
+    footer {
+      flex-direction: column;
+      align-items: center;
+    }
+    .immagine-piccola{
+    position: static;
+    width: auto;
+    right: auto;
+    top: auto;
+    margin-bottom: 20px;
   }
-  
-  
-  
-  
-  
-  
-  
+  .vuoi-contattarmi {
+    position: static;
+    width: auto;
+    right: auto;
+    top: auto;
+    margin-bottom: 20px;
+  }
+}
