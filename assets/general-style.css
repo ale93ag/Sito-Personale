@@ -73,7 +73,7 @@ height: 100vh;
       flex-direction: column;
       align-items: flex-end;
       margin-top: 100px; /* altezza dell'header */
-      position: static;
+      position: absolute;
       top: 0;
       left: 0;
       width: 100%;
@@ -83,7 +83,7 @@ height: 100vh;
       display: fixed;
     }
     
-    nav a {
+    menu-a-tendina a {
       margin-right: 0;
       margin-bottom: 10px;
     }
