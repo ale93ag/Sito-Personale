@@ -76,7 +76,7 @@ header {
 
 .sub-menu {
   display: none;
-  text-align: start;
+  text-align: center;
   list-style: none;
   font-weight: normal;
 }
@@ -88,6 +88,9 @@ header {
   transition: 0.6s;
   text-align: center;
 }
-.portfolio, .github {
+.sub-menu li{
   background-color: white;
+  align-items: center;
+  margin-right: 38px;
+  margin-top: 20px;
 }
